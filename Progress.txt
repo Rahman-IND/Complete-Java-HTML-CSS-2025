@@ -1,0 +1,7 @@
+# Section-1 Introduction of web design (1hr5m)
+- V1 : Basic requirement to build web application.
+- V2 : Web terminology
+- V3 : Web server
+- V4 : Web site
+- V5 : Web pages
+- v6 : Basics
