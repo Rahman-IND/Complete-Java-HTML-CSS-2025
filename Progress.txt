@@ -9,3 +9,8 @@
 - v7 : Brief description of HTML
 - v8 : Structure of HTML document scope
 - v9 : Body Section
+# Section-3 Heading, paragraph and Blockquotes (45m)
+- v10 : Introduction of Headings
+- v11 : Example of Headings
+- v12 : Introduction of paragraph and Blockquotes
+- v13 : Example of paragraph and Blockquotes
