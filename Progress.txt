@@ -5,3 +5,7 @@
 - V4 : Web site
 - V5 : Web pages
 - v6 : Basics
+# Section-2 Introduction of HTML (1hr10m)
+- v7 : Brief description of HTML
+- v8 : Structure of HTML document scope
+- v9 : Body Section
