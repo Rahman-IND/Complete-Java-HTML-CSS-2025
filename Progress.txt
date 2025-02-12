@@ -19,7 +19,7 @@
 - v15 : Example of Ordered list
 - v16 : Introduction of Unordered list
 - v17 : Example of Unordered list
-# Section-5 Blankspace, Pre-formatted text, Acronyms etc. (m)
+# Section-5 Blankspace, Pre-formatted text, Acronyms etc. (1hr6m)
 - v18 : Line Break in HTML
 - v19 : Blankspace in HTML
 - v20 : Pre-formatted text in HTML
