@@ -25,3 +25,6 @@
 - v20 : Pre-formatted text in HTML
 - v21 : Acronyms in HTML
 - v22 : Details and Summary in HTML
+# Section-6 Datalist with terms and definitions ()
+- v23 : Introduction of Datalist
+- v24 : Example of Datalist with terms and definitions
