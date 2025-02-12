@@ -25,6 +25,11 @@
 - v20 : Pre-formatted text in HTML
 - v21 : Acronyms in HTML
 - v22 : Details and Summary in HTML
-# Section-6 Datalist with terms and definitions ()
+# Section-6 Datalist with terms and definitions (20m)
 - v23 : Introduction of Datalist
 - v24 : Example of Datalist with terms and definitions
+# Section-7 Text formatting in HTML (1hr10m)
+- v25 : Introduction to text formatting in HTML
+- v26 : Explanation of font elements with example
+- v27 : Explanation of font styles with example
+- v28 : Explanation of font effects with example
