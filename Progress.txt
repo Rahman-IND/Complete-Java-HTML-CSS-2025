@@ -36,3 +36,8 @@
 # Section-8 Images in HTML (20m)
 - v29 : Explanation of Images elements in HTML
 - v30 : Example of image element
+# Section-9 Links in HTML (1hr6m)
+- v31 : Explanation of Horizontal Line
+- v32 : Introduction to links in HTML
+- v33 : Explanation of intra links with example
+- v34 : Explanation of inter links with example
