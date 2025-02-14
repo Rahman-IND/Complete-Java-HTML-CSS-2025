@@ -33,3 +33,6 @@
 - v26 : Explanation of font elements with example
 - v27 : Explanation of font styles with example
 - v28 : Explanation of font effects with example
+# Section-8 Images in HTML (20m)
+- v29 : Explanation of Images elements in HTML
+- v30 : Example of image element
