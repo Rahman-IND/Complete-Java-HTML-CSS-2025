@@ -41,3 +41,6 @@
 - v32 : Introduction to links in HTML
 - v33 : Explanation of intra links with example
 - v34 : Explanation of inter links with example
+# Section-10 Table in HTML (35m)
+- v35 : Explanation of Table in HTML
+- v36 : Example of Table in HTML
