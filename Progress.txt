@@ -44,3 +44,11 @@
 # Section-10 Table in HTML (35m)
 - v35 : Explanation of Table in HTML
 - v36 : Example of Table in HTML
+# Section-11 Form in HTML ()
+- v37 : Explanation of form in HTML
+- v38 : Example of form in HTML
+- v39 : Example of Dropdown list and ListBox
+- v40 : Fieldset, Radio, Button and Checkbox with example
+- v41 : Explanation of Progress and Meter
+- v42 : Explanation of Textarea and Button
+- v43 : Marquee in HTML
