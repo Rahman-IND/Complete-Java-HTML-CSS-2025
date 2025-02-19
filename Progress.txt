@@ -44,7 +44,7 @@
 # Section-10 Table in HTML (35m)
 - v35 : Explanation of Table in HTML
 - v36 : Example of Table in HTML
-# Section-11 Form in HTML ()
+# Section-11 Form in HTML (2hr)
 - v37 : Explanation of form in HTML
 - v38 : Example of form in HTML
 - v39 : Example of Dropdown list and ListBox
