@@ -1,0 +1,14 @@
+/* normal or development level code */
+h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+/* minified or production level code */
+h1{background-color: blue;color: white;text-align: center;}
+
+/* This makes a script smaller, resulting in a faster download time.
+This makes it difficult for the code to be read,
+thereby making it more difficult to reverse engineer or copy. */
+
+/* www.cleancss.com/css-minify */
