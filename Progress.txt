@@ -52,3 +52,7 @@
 - v41 : Explanation of Progress and Meter
 - v42 : Explanation of Textarea and Button
 - v43 : Marquee in HTML
+# Section-12 Style in HTML (2hr)
+- v44 : Explanation of Style in HTML with example
+- v45 : Introduction of CSS
+- v46 : Explanation on Type selectors in CSS
