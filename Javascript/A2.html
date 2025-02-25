@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .bstyle{
+                background-color: black;
+                color: yellow;
+            }
+        </style>
+        <script>
+            function bodyload(){
+                var x=document.getElementsByClassName("bstyle");
+                alert("Total no. of elements using bstyle "+x.length);
+            }
+        </script>
+    </head>
+    <body onload="bodyload()">
+        <h2 class="bstyle">Welcome to Javascript</h2>
+    </body>
+</html>
