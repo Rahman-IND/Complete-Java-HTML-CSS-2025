@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Refer by using Id</title>
+        <script>
+            function bodyload(){
+                document.getElementById("hi").src="/images/fruits.jpeg";
+                document.getElementById("txtname").placeholder="name";
+                document.getElementById("txtRegister").value="Register";
+            }
+        </script>
+    </head>
+    <body onload="bodyload()">
+        <div>
+            <img id="hi" width="300" height="300" border="1">
+        </div>
+        <div>
+            <form>
+                Name:
+                <input type="text" id="txtname">
+                <input type="button" id="txtRegister">
+            </form>
+        </div>
+    </body>
+</html>
