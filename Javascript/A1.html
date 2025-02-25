@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get elements by TagName</title>
+    </head>
+    <script>
+        function bodyload(){
+            var x=document.getElementsByTagName("img");
+            alert("total no. of images in page : "+x.length)
+        }
+    </script>
+    <body onload="bodyload()">
+        <div>
+            <img src="/images/fruits.jpeg" width="300" height="300" border="1" align="center">
+        </div>
+    </body>
+</html>
