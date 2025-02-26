@@ -61,3 +61,4 @@
 - v48 : Integrating Javascript into HTML page
 - v49 : Javascript referring HTML elements
 - v50 : Javascript output properties and methods
+- v51 : Javascript output properties and methods part 2
