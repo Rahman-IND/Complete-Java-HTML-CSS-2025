@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            dt{
+                font-weight: bold;
+            }
+        </style>
+        <script>
+            function register1(){
+                var Id=document.getElementById("txtid").value;
+                var Name=document.getElementById("txtname").value;
+                var Price=document.getElementById("txtprice").value;
+                var Mfd=document.getElementById("txtmfd").value;
+                var Yes=document.getElementById("optyes");
+                var No=document.getElementById("optno");
+                if(Yes.checked)
+                stoke=Yes.value;
+                if(No.checked)
+                stoke=No.value;
+                var City=document.getElementById("lstcities").value;
+
+                document.getElementById("lblid").innerText=Id;
+                document.getElementById("lblname").innerText=Name;
+                document.getElementById("lblprice").innerText=Price;
+                document.getElementById("lblmfd").innerText=Mfd;
+                document.getElementById("lblstoke").innerText=stoke;
+                document.getElementById("lblcity").innerText=City;
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset id="showRegister">
+                    <legend>Register Product</legend>
+                    <dl>
+                        <dt>Product Id</dt>
+                        <dd><input type="number" min="1" max="10" id="txtid"></dd>
+                        <dt>Product Name</dt>
+                        <dd><input type="text" id="txtname"></dd>
+                        <dt>Product Price</dt>
+                        <dd><input type="range" min="1000" max="40000" id="txtprice"></dd>
+                        <dt>Product Manufactured</dt>
+                        <dd><input type="date" id="txtmfd"></dd>
+                        <dt>Is in Stoke</dt>
+                        <dd>
+                            <input type="radio" value="Available" name="stoke" id="optyes">Yes
+                            <input type="radio" value="Out-of-stoke" name="stoke" id="optno">No
+                        </dd>
+                        <dt>Shipped to</dt>
+                        <dd>
+                            <select id="lstcities">
+                                <option value="Delhi">Delhi</option>
+                                <option value="Bihar" disabled>Bihar</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Assam" selected>Assam</option>
+                            </select>
+                        </dd>
+                    </dl><br>
+                    <input type="button" value="Register" onclick="register1()">
+                </fieldset>
+                <br>
+                <fieldset id="showDetails">
+                    <legend>Show Product Details </legend>
+                    <table width="400" border="1">
+                            <tr>
+                                <td>Product Id</td>
+                                <td id="lblid"></td>
+                            </tr>
+                            <tr>
+                                <td>Product Name</td>
+                                <td id="lblname"></td>
+                            </tr>
+                            <tr>
+                                <td>Product Price</td>
+                                <td id="lblprice"></td>
+                            </tr>
+                            <tr>
+                                <td>Manufactured Yr</td>
+                                <td id="lblmfd"></td>
+                            </tr>
+                            <tr>
+                                <td>Is in Stoke</td>
+                                <td id="lblstoke"></td>
+                            </tr>
+                            <tr>
+                                <td>Shipped to</td>
+                                <td id="lblcity"></td>
+                            </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
