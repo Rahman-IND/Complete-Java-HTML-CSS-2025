@@ -63,3 +63,4 @@
 - v50 : Javascript output properties and methods
 - v51 : Javascript output properties and methods part 2
 - v52 : Handling inputs in Javascript
+- v52 : Javascript Variables
