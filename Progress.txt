@@ -56,7 +56,7 @@
 - v44 : Explanation of Style in HTML with example
 - v45 : Introduction of CSS
 - v46 : Explanation on Type selectors in CSS
-# Section-13 Javascript (4hr)
+# Section-13 Javascript (5hr)
 - v47 : Javascript Introduction
 - v48 : Integrating Javascript into HTML page
 - v49 : Javascript referring HTML elements
@@ -65,3 +65,4 @@
 - v52 : Handling inputs in Javascript
 - v52 : Javascript Variables
 - v53 : Javascript Datatypes
+- v54 : Non-primitive types in Javascript
