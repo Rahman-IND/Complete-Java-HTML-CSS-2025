@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function showproducts(){
+                var products=[
+                    {Id:1001,Name:"Samsung TV",Price:15000,Quantity:3,ShippedFrom:"Delhi",Photo:"https://images.samsung.com/is/image/samsung/africa-en-fhd-t5300-ua40t5300auxly-frontblack-243705836?$684_547_PNG$"},
+                    {Id:1002,Name:"Samsung Fridge",Price:25000,Quantity:4,ShippedFrom:"Mumbai",Photo:"https://img-prd-pim.poorvika.com/product/samsung-183-l-direct-cool-single-door-5-star-refrigerator-rr20d2725rz-nl-mignight-blossom-red-front-view.png"},
+                    {Id:1003,Name:"Samsung Phone",Price:60000,Quantity:0,ShippedFrom:"Kolkata",Photo:"https://images.samsung.com/in/smartphones/galaxy-s25/buy/product_color_coralRed_plus_PC_v2.png"}
+                ]
+                var prodPic=document.getElementById("prodPic");
+                var prodId=document.getElementById("prodId");
+                var prodName=document.getElementById("prodName");
+                var prodPrice=document.getElementById("prodPrice");
+                var prodStock=document.getElementById("prodStock");
+                var prodFrom=document.getElementById("prodFrom");
+                var txtRange=document.getElementById("txtRange");
+
+                if(products[txtRange.value].Quantity>0){
+                    Stock="Available";
+                }else{
+                    Stock="Out-of-Stock";
+
+                }
+
+                prodPic.src=products[txtRange.value].Photo;
+                prodId.innerHTML=products[txtRange.value].Id;
+                prodName.innerHTML=products[txtRange.value].Name;
+                prodPrice.innerHTML=products[txtRange.value].Price;
+                prodStock.innerHTML=Stock;
+                prodFrom.innerHTML=products[txtRange.value].ShippedFrom;
+            }
+        </script>
+        <style>
+            td{
+                font-weight: bold;
+                width: 50%;
+                img{
+                    font-weight: normal;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table width="500" border="2" cellspacing="4" cellpadding="4" align="center">
+                <tr>
+                    <td align="center" >
+                        <img id="prodPic" src="" alt="Loading..." width="300">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product Id:</td>
+                    <td id="prodId"></td>
+                </tr>
+                <tr>
+                    <td>Product Name:</td>
+                    <td id="prodName"></td>
+                </tr>
+                <tr>
+                    <td>Product Price:</td>
+                    <td id="prodPrice"></td>
+                </tr>
+                <tr>
+                    <td>Stock:</td>
+                    <td id="prodStock"></td>
+                </tr>
+                <tr>
+                    <td>Shipped From:</td>
+                    <td id="prodFrom"></td>
+                </tr>
+            </table>
+        </div>
+        <div align="center">
+            <input type="range" id="txtRange" min="0" max="2" value="0" onclick="showproducts()">
+        </div>
+    </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function showproducts(){
+                var product=[
+                    {Id:101,Name:"TV",Price:30000,Photo: "https://i5.walmartimages.com/asr/2b2943fd-73d6-4d7b-9c54-e22db0c660f1_4.e79d68ec3a718064170de6cbd82e6030.jpeg"},
+                    {Id:102,Name:"iPhone",Price:35000,Photo:"https://th.bing.com/th/id/OIP.JYriuVLeEpcTNpGjWFTFBwHaHa?rs=1&pid=ImgDetMain"},
+                    {Id:103,Name:"Car",Price:400000,Photo:"https://img.freepik.com/premium-photo/black-lamborghini-car-road_972667-404.jpg"}
+                ];
+                var pic=document.getElementById("pic");
+                var txtRange=document.getElementById("txtRange");
+                var prodId=document.getElementById("prodId");
+                var prodName=document.getElementById("prodName");
+                var prodPrice=document.getElementById("prodPrice");
+
+                pic.src=product[txtRange.value].Photo;
+                prodId.innerHTML=product[txtRange.value].Id;
+                prodName.innerHTML=product[txtRange.value].Name;
+                prodPrice.innerHTML=product[txtRange.value].Price;
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <table width="500" border="2" cellspeacing="4" cellpadding="4" align="center">
+                <tr>
+                    <td align="center">
+                        <img src="" id="pic" alt="Loading..." width="200" height="200">
+                    </td>
+                </tr>
+                <tr>
+                    <td>ProductId</td>
+                    <td id="prodId"></td>
+                </tr>
+                <tr>
+                    <td>ProductName</td>
+                    <td id="prodName"></td>
+                </tr>
+                <tr>
+                    <td>ProductPrice</td>
+                    <td id="prodPrice"></td>
+                </tr>
+            </table>
+        </div>
+        <div align="center">
+            <input type="range" id="txtRange" min="0" max="2" value="0" onchange="showproducts()">
+        </div>
+        <a href=""></a>
+    </body>
+</html> -->
