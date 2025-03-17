@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function f1(){
+                var products={
+                    Id: 101,
+                    Name: "Samasung Tv",
+                    Price: 30000,
+                    Quantity: 3,
+                    // IsInStock: 3,
+                    ShippedTo: ['Delhi','Hyderabad'],
+                    Total: function(){
+                        return products.Price*products.Quantity;
+                    }
+                }
+                if(products.Quantity>0){
+                    Stock="Available";
+                }else{
+                    Stock="Out-Of-Stock";
+                }
+                document.write("Id: "+products.Id+"<br>"+"Name: "+products.Name+"<br>"+"Price: "+products.Price+"<br>"+"Quantity: "+products.Quantity+"<br>"+"IsInStock: "+Stock+"<br>"+"Shipped to: "+products.ShippedTo+"<br>"+"Total: "+products.Total());
+            }
+            f1();
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function f1(){
+                var product={
+                    Id : 101,
+                    Name : "SamsungTv",
+                    price : 30000,
+                    IsInStoke : false,
+                    Quantity : 3,
+                    ShippedTo : ['Delhi','Hyderabad'],
+                    Total : function(){
+                        return product.Quantity*product.price;
+                    }
+                }
+                if(product.IsInStoke==true){
+                    Stoke="Available";
+                }else{
+                    Stoke="Out-Of-Stoke";
+
+                }
+                document.write("Id : "+product.Id+"<br>"+"Name: "+product.Name+"<br>"+"Price: "+product.price+"<br>"+"Stoke: "+Stoke+"<br>"+"Quantity: "+product.Quantity+"<br>"+"Shipped to: "+product.ShippedTo+"<br>"+"Total: "+product.Total());
+            }
+            f1();
+        </script>
+    </head>
+    <body>
+    </body>
+</html> -->
