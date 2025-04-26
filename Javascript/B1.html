@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var products=["/images/css.jpeg","/images/html.jpeg","/images/Javascript.jpeg"]
+            var count=0;
+
+            function perviousClick(){
+                var pic=document.getElementById("pic");
+                count--;
+                pic.src=products[count];
+            }
+            function nextClick(){
+                var pic=document.getElementById("pic");
+                count++;
+                pic.src=products[count];
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <table border="2" width="500" align="center" cellspacing="4" cellpadding="4">
+                <tr>
+                    <td><input type="button" value="Previous" onclick="perviousClick()"></td>
+                    <td align="center">
+                        <img src="/images/fruits.jpeg" width="400" height="400" id="pic">
+                    </td>
+                    <td>
+                        <input type="button" value="Next" onclick="nextClick()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
