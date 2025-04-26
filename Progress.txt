@@ -63,6 +63,8 @@
 - v50 : Javascript output properties and methods
 - v51 : Javascript output properties and methods part 2
 - v52 : Handling inputs in Javascript
-- v52 : Javascript Variables
-- v53 : Javascript Datatypes
-- v54 : Non-primitive types in Javascript
+- v53 : Javascript Variables
+- v54 : Javascript Datatypes
+- v55 : Non-primitive types in Javascript
+- v56 : Javascript Regular-Expressions
+- v57 : Javascript Operators
