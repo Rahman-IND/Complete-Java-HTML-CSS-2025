@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        </style>
+        <script>
+            function submitClick(){
+                var CSS=document.getElementById("optCss");
+                var HTML=document.getElementById("optHtml");
+                var JS=document.getElementById("optJS");
+                var msg=document.getElementById("msg");
+
+                var courses="";
+                if(CSS.checked){
+                    courses+=CSS.value+"<br>";
+                }
+                if(HTML.checked){
+                    courses+=HTML.value+"<br>";
+                }
+                if(JS.checked){
+                    courses+=JS.value+"<br>";
+                }
+                msg.innerHTML="Selected courses : "+"<br>"+courses;
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Select Courses</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="optCss" value="CSS">CSS
+                    </li>
+                    <li>
+                        <input type="checkbox" id="optHtml" value="HTML">HTML
+                    </li>
+                    <li>
+                        <input type="checkbox" id="optJS" value="JAVASCRIPT">JAVASCRIPT
+                    </li>
+                </ul>
+                <br>
+                <input type="button" value="Submit" onclick="submitClick()">
+            </fieldset>
+        </div>
+        <div id="msg" align="center"></div>
+    </body>
+</html>
