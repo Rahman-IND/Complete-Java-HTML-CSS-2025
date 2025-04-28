@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function login(){
+                var uname=document.getElementById("txtName").value;
+                var pwd=document.getElementById("txtpwd").value;
+                var msg=document.getElementById("msg");
+
+                var userDetails={username:"John",password:"Admin"};
+
+                (uname==userDetails.username && pwd==userDetails.password)?
+                document.write("login successful") : msg.innerHTML="invalid username/password";
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Login</legend>
+                <dl>
+                    <dt>Username:</dt>
+                    <dd><input type="text" id="txtName"></dd>
+                    <dt>Password:</dt>
+                    <dd><input type="password" id="txtpwd"></dd>
+                </dl>
+                <br>
+                <input type="button" value="Login" onclick="login()">
+            </fieldset>
+        </div>
+        <div>
+            <h2 id="msg" align="center" style="color: red;"></h2>
+        </div>
+    </body>
+</html>
