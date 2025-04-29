@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            dt{
+                font-weight: bold;
+            }
+        </style>
+        <script>
+            function pay(){
+                var userDetails={name:"john",pin:4545,otp:122334};
+                var txtName=document.getElementById("txtName").value;
+                var txtCode=document.getElementById("txtCode").value;
+                var msg=document.getElementById("msg");
+
+                if(userDetails.name==txtName){
+                    if(userDetails.pin==txtCode){
+                        msg.innerHTML="Pin Verified";
+                    }else if(userDetails.otp==txtCode){
+                        msg.innerHTML="Otp verified";
+                    }else{
+                        msg.innerHTML="invalid pin/otp";
+                    }
+                }else{
+                    msg.innerHTML="invalid username";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Payment</legend>
+                <dl>
+                    <dt>Name on Card</dt>
+                    <dd>
+                        <input type="text" id="txtName">
+                    </dd>
+                    <dt>Pin/Otp</dt>
+                    <dd>
+                        <input type="number" id="txtCode" placeholder="Use Pin or OTP">
+                    </dd>
+                </dl>
+                <br>
+                <input type="button" value="Submit" onclick="pay()">
+            </fieldset>
+        </div>
+        <div id="msg" align="center"></div>
+    </body>
+</html>
