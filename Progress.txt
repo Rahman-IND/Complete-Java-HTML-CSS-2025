@@ -69,3 +69,4 @@
 - v56 : Javascript Regular-Expressions
 - v57 : Javascript Operators
 - v58 : Javascript Operators part-2
+- v59 : Javascript Flow-control statement
