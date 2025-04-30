@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function changeCode(){
+                var a =Math.random()*10;
+                var b =Math.random()*10;
+                var c =Math.random()*10;
+                var d =Math.random()*10;
+                var e =Math.random()*10;
+
+                var msg=document.getElementById("msg").innerHTML=Math.round(a)+" "+Math.round(b)+" "+Math.round(c)+" "+Math.round(d)+" "+Math.round(e);
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="msg" align="center">879456</div>
+        <br>
+        <div align="center">
+            <input type="button" value="Refresh" onclick="changeCode()">
+        </div>
+    </body>
+</html>
