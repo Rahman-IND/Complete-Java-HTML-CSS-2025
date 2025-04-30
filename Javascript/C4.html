@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function showNames(){
+                var users=[{Name:"John"},{Name:"Rohit"},{Name:"Dhoni"},{Name:"Virat"},{Name:"Raina"}];
+                var Username=document.getElementById("txtname").value;
+                var msg=document.getElementById("msg");
+
+                for(var i=0;i<users.length;i++){
+                    if(Username==users[i].Name){
+                        msg.innerHTML="username already taken by another";
+                        return;
+                    }else{
+                        msg.innerHTML="available"
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend>Names</legend>
+                Username: <input type="text" id="txtname" onkeyup="showNames()">
+                <span id="msg"></span>
+            </fieldset>
+        </div>
+    </body>
+</html>
