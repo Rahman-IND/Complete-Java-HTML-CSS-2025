@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function bodyload(){
+                var name=prompt("Enter you name : ");
+                var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                var months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+                var now =new Date();
+                var Weekday=now.getDay();
+                var day=now.getDate();
+                var month=now.getMonth();
+                var year=now.getFullYear();
+
+                var today=days[Weekday]+", "+day+" "+months[month]+" "+year;
+
+                document.getElementById("msg").innerHTML=today;
+                document.getElementById("uname").innerHTML="Hello "+name;
+                var pic=document.getElementById("pic");
+
+                var hrs=now.getHours();
+                if(hrs>=5 && hrs<12){
+                    pic.src="https://shorturl.at/vKgk0";
+                }else if(hrs>=12 && hrs<17){
+                    pic.src="https://shorturl.at/pyzvT";
+                }else if(hrs>=17 && hrs<23){
+                    pic.src="https://shorturl.at/gvwUg";
+                }else{
+                    pic.src="https://shorturl.at/4SlYh";
+                }
+            }
+        </script>
+    </head>
+    <body onload="bodyload()">
+        <!-- display current weekday and full date  -->
+        <div id="msg" align="center"></div>
+
+        <!-- display username & greeting image -->
+        <div align="center">
+            <h2 id="uname" align="center"></h2><br><br>
+            <img src="" id="pic" alt="greeting image">
+        </div>
+    </body>
+</html>
