@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function f1(){
+                var cities=["Mumbai","Hyderabad","Chennai","Banglore"];
+                // slice function
+                var newCities = cities.slice(1,4);
+                document.write("Cities: "+newCities+"<br>");
+                // splice function
+                cities.splice(1,0,"Goa","Pune");
+                document.write("Cities: "+cities);
+            }
+            f1();
+        </script>
+    </head>
+</html>
