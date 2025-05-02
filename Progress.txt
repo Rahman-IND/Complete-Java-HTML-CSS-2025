@@ -71,3 +71,4 @@
 - v58 : Javascript Operators part-2
 - v59 : Javascript Flow-control statement
 - v60 : Javascript Built-in objects
+- v61 : Javascript Browser objects
