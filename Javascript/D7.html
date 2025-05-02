@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            dt{
+                color: white;
+                background-color: blue;
+            }
+            dd{
+                color: red;
+                background-color: thistle;
+            }
+        </style>
+        <script>
+            function getDetails(){
+                document.getElementById("details").style.display="block";
+                document.getElementById("host").innerHTML=location.host;
+                var msg=" ";
+                switch(location.protocol){
+                    case "http:":
+                    msg="page accessed from secured server";
+                    break;
+                    case "file:":
+                    msg="page not access from server";
+                    break;
+                }
+                document.getElementById("protocol").innerHTML=location.protocol+"<br>"+msg;
+                document.getElementById("url").innerHTML=location.href;
+            }
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <input type="button" value="Get Client Details" onclick="getDetails()">
+            <input type="button" value="Refresh" onclick="location.reload()">
+        </div>
+        <div id="details" style="display: none">
+            <dl>
+                <dt>Server Name/Ip address</dt>
+                <dd id="host"></dd>
+                <dt>Protocol</dt>
+                <dd id="protocol"></dd>
+                <dt>URL</dt>
+                <dd id="url"></dd>
+            </dl>
+        </div>
+    </body>
+</html>
