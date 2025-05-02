@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var newWindow;
+            function viewLarge(){
+                newWindow = window.open("/images/css.jpeg","Farrari","Width=600 Height=600");
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <img src="/images/css.jpeg" width="520" height="300" ondblclick="viewLarge()">
+        </div>
+        <div>
+            <input type="button" value="close" onclick="newWindow.close()">
+            <input type="button" value="Print" onclick="window.print()">
+        </div>
+    </body>
+</html>
