@@ -72,3 +72,4 @@
 - v59 : Javascript Flow-control statement
 - v60 : Javascript Built-in objects
 - v61 : Javascript Browser objects
+- v62 : Javascript Browser objects part-2
