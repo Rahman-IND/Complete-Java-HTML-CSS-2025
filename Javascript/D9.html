@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function bodyload(){
+                if(history.length>3){
+                    alert("Register for more");
+                    location.href="/Javascript/A1.html";
+                }
+                else{
+                    document.write("you can view max 3 pages for free");
+                }
+            }
+        </script>
+    </head>
+    <body onload="bodyload()">
+    </body>
+</html>
