@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            dt{
+                background-color: blue;
+                color: white;
+            }
+            dd{
+                background-color: thistle;
+            }
+        </style>
+        <script>
+            function getDetails(){
+                document.getElementById("details").style.display="block";
+                document.getElementById("family").innerHTML=navigator.appName;
+                document.getElementById("lang").innerHTML=navigator.language;
+                document.getElementById("cookie").innerHTML=navigator.cookieEnabled;
+                document.getElementById("agent").innerHTML=navigator.userAgent;
+                for(var i=0;i<navigator.plugins.length;i++){
+                    document.getElementById("plug").innerHTML+=navigator.plugins[i].name+"<br>";
+                }
+                var msg=document.getElementById("msg");
+                if(navigator.plugins["Chrome PDF Viewer"==undefined]){
+                    msg.innerHTML="No";
+                }else{
+                    msg.innerHTML="Yes";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <input type="button" value="Get browser details" onclick="getDetails()">
+        </div>
+        <div id="details" style="display: none">
+            <dl>
+                <dt>Browser family</dt>
+                <dd id="family"></dd>
+                <dt>Browser language</dt>
+                <dd id="lang"></dd>
+                <dt>Cookie enable</dt>
+                <dd id="cookie"></dd>
+                <dt>Support on</dt>
+                <dd id="agent"></dd>
+                <dt>Plugin supported</dt>
+                <dd id="plug"></dd>
+                <dt>user can view pdf document?</dt>
+                <dd id="msg"></dd>
+            </dl>
+        </div>
+    </body>
+</html>
