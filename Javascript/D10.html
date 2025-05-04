@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function showDetail(obj,e){
+                document.write("Button name: "+obj.name+"<br>"+"Button value: "+obj.value+"<br>"+"Clicked at x: "+e.clientx);
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <input type="button" name="btnSubmit" value="Sumbit" onclick="showDetail(this,event)">
+        </div>
+    </body>
+</html>
