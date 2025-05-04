@@ -56,7 +56,7 @@
 - v44 : Explanation of Style in HTML with example
 - v45 : Introduction of CSS
 - v46 : Explanation on Type selectors in CSS
-# Section-13 Javascript (5hr)
+# Section-13 Javascript (26hr)
 - v47 : Javascript Introduction
 - v48 : Integrating Javascript into HTML page
 - v49 : Javascript referring HTML elements
@@ -73,3 +73,5 @@
 - v60 : Javascript Built-in objects
 - v61 : Javascript Browser objects
 - v62 : Javascript Browser objects part-2
+- v63 : Javascript Events
+- v64 : Real-world food delivary application
