@@ -3,6 +3,7 @@ p{
     border: 2px solid #999;
     margin: 10px 0;
     padding: 5px;
+    background-color: paleturquoise;
 }
 div{
     border: 2px solid #999;
@@ -10,5 +11,6 @@ div{
 }
 div p{
     text-align: right;
+    background: thistle;
     border: none;
 }
