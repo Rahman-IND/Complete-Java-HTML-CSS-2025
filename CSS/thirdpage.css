@@ -1,12 +1,21 @@
+div{
+    border: 2px solid #999;
+}
 h2{
     color: white;
     background-color: black;
-    padding-left: 5px;
     text-align: center;
 }
 .cls1{
     font-weight: bold;
+    border: 2px solid #999;
+    background-color: paleturquoise;
 }
 .cls2{
-    text-decoration: 1px underline wavy blue;
+    border: 2px solid #999;
+    background-color: thistle;
+}
+li{
+    background-color: orange;
+    padding-left: 5px;
 }
