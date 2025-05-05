@@ -1,44 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Nested list</title>
-    </head>
-    <body>
-        <div>
-            <h2>Table of contents</h2>
-            <ol type="1">
-                <li>HTML
-                    <ol type="1">
-                        <li>Normal Elements
-                            <ol type="a">
-                                <li>Bold</li>
-                                <li>Italic</li>
-                            </ol>
-                        </li>
-                        <li>Void Elements
-                            <ol type="a">
-                                <li>br</li>
-                                <li>hr</li>
-                            </ol>
-                        </li>
-                        <li>JavaScript
-                            <ol type="1">
-                                <li>Variables
-                                    <ol type="a">
-                                        <li>let</li>
-                                        <li>var</li>
-                                    </ol>
-                                </li>
-                                <li>Datatypes</li>
-                                <ol type="a">
-                                    <li>string</li>
-                                    <li>boolean</li>
-                                </ol>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered List</title>
+    <link rel="stylesheet" href="/CSS/thirdpage.css">
+</head>
+<body>
+    <div>
+        <h2>Nested Ordered List</h2>
+        <ol type="1">
+            <li class="cls1">Animals</li>
+            <ol type="a">
+                <li class="cls2">Herbivorous</li>
+                <ol type="i">
+                    <li>Cow</li>
+                    <li>Goat</li>
+                    <li>Sheep</li>
+                </ol>
+                <li class="cls2">Carnivorous</li>
+                <ol type="i">
+                    <li>Tiger</li>
+                    <li>Lion</li>
+                    <li>Hyena</li>
+                </ol>
             </ol>
-        </div>        
-    </body>
+            <li class="cls1">Birds</li>
+            <ol type="a">
+                <li class="cls2">Normal Birds</li>
+                <ol type="i">
+                    <li>Owl</li>
+                    <li>Eagle</li>
+                    <li>Parrot</li>
+                </ol>
+                <li class="cls2">Flightless Birds</li>
+                <ol type="i">
+                    <li>Emu</li>
+                    <li>Penguin</li>
+                    <li>Kiwi</li>
+                </ol>
+        </ol>
+    </div>
+</body>
 </html>

@@ -1,0 +1,12 @@
+h2{
+    color: white;
+    background-color: black;
+    padding-left: 5px;
+    text-align: center;
+}
+.cls1{
+    font-weight: bold;
+}
+.cls2{
+    text-decoration: 1px underline wavy blue;
+}
