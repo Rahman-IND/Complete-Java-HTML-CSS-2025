@@ -1,0 +1,15 @@
+h2{
+    padding-left: 5px;
+    color: white;
+    background-color: black;
+}
+.cls1{
+    font-weight: bold;
+    text-decoration:  2px underline dotted blue;
+}
+.f1 li{
+    color: orangered;
+}
+.v1 li{
+    color: green;
+}
