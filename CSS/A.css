@@ -1,0 +1,22 @@
+div{
+    background-color: thistle;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+acronym{
+    font-weight: bold;
+}
+.p1 code{
+    font-weight: bold;
+}
+.p1 span{
+    color: red;
+}
+.cl2 span abbr{
+    color: orangered;
+}
