@@ -1,0 +1,31 @@
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+details{
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    margin-bottom: 5px;
+}
+summary{
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    background-color: paleturquoise;
+}
+details[open]{
+    padding: 0.5em;
+    background-color: thistle;
+}
+details[open] summary{
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+    background-color: orangered;
+    color: white;
+}
+details span{
+    font-family:monospace;
+    font-size:large ;
+}
