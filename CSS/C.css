@@ -1,0 +1,26 @@
+div{
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+dl{
+    border: 2px solid #aaa;
+    padding: 10px 10px;
+    background-color: #eee;
+    /* background-color: paleturquoise; */
+}
+dt{
+    font-weight: bold;
+}
+dt,dd{
+    font-size: 0.9em;
+}
+dd{
+    margin-bottom: 1em;
+}
+.mulDD dt::after{
+    content: ": ";
+}
