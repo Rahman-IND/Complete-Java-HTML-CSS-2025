@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+font{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    background-color: paleturquoise;
+    padding: 0 10px;
+}
+span{
+    font-size: x-large;
+    padding: 0 10px;
+    background-color: thistle;
+}
+samp{
+    font-weight: bold;
+}
+.rd{
+    color: red;
+    font-weight: normal;
+}
