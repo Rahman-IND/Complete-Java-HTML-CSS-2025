@@ -1,21 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-
-    </head>
-    <body>
-        <div>
-            <dl>
-                <dt>Underline and Strikeout</dt>
-                <dd>She <u>smiled</u> at <ins>me</ins>.</dd>
-                <dd>The cake is <strike>not</strike> delicious.</dd>    
-                <dt>Delete text</dt>     
-                <dd>My dog loves to <del>sit</del> run.</dd>
-                <dt>Superscript</dt>
-                <dd>Simple maths: 2+2 = (2) <sup>2</sup> = 4</dd>
-                <dt>Subscript</dt>
-                <dd>Simple formula: water is H<sub>2</sub>O</dd>
-            </dl>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font effects</title>
+    <link rel="stylesheet" href="/CSS/F.css">
+</head>
+<body>
+    <h2>Font effect elements</h2>
+    <div>
+        <dl>
+            <dt>Unarticulated Annotation (Underline) element</dt>
+            <dd>
+                <span>The <code>&lt;u&gt;</code> element can be use to <mark>highlight</mark> mistake.</span>
+                <p>
+                    <del>This is a long <u>semtance</u>.</del>
+                    <ins>This is a long Sentance.</ins>
+                </p>
+            </dd>
+            <dt>Strikethrough element</dt>
+            <dd>
+                <span>The <code>&lt;strike&gt;</code> is a <mark class="depre">depreciated</mark> element, instead use <code>&lt;s&gt;</code> element. </span>
+                <p>
+                    Netfilx Series:
+                    <del><s>Iron Fist</s></del>
+                    <ins>Money Heist</ins>
+                    <del><s>The Punisher</s></del>
+                    <ins>Cobra Kai</ins>
+                </p>
+            </dd>
+            <dt>Deleted Text element</dt>
+            <dd><span class="e3">This repository belong to <del>Hemanth</del><ins>Marvin</ins> </span></dd>
+            <dt>Superscript element</dt>
+            <dd><span>Math equation: <code>(2)<sup>2</sup>=4</code></span></dd>
+            <dt>Superscript element</dt>
+            <dd><span>Chemical formula for water: <code>H<sub>2</sub>O</code></span></dd>
+        </dl>
+    </div>
+</body>
 </html>

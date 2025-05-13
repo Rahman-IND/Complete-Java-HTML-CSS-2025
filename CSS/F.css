@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+dt{
+    font-weight: bold;
+}
+dt,dd{
+    font-size: large;
+    font-family: sans-serif;
+}
+dd{
+    margin-bottom: 0.5em;
+}
+u{
+    /* text-decoration: 2px underline wavy red; */
+    text-decoration: red wavy underline;
+}
+span{
+    margin-top: 4px ;
+}
+code{
+    color: blue;
+}
+.depre{
+    font-size: 19px;
+}
+p{
+    font-family: monospace;
+}
+del,ins{
+    display: block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-bottom: 4px;
+}
+del{
+    background-color: pink;
+}
+ins{
+    background-color: palegreen;
+}
+del::before{
+    content: " - ";
+}
+ins::before{
+    content: " + ";
+}
+s{
+    text-decoration: line-through red;
+}
+.e3 del{
+    display: inline;
+    text-decoration: line-through red;
+    color: gray;
+}
+.e3 ins{
+    display: inline;
+    padding-right: 4px;
+}
+dl{
+    background-color: paleturquoise;
+    padding: 10px 5px;
+    border: 2px solid #999;
+}
