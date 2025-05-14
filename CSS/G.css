@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+div{
+    text-align: center;
+    background-color: paleturquoise;
+}
+img{
+    height: 350px;
+    width: 550px;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+p{
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    padding-bottom: 10px;
+}
