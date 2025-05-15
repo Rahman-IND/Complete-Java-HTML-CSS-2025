@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+h2{
+    padding-left: 10px;
+    background-color: paleturquoise;
+    text-decoration: 2px dashed black underline;
+}
+div li{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: x-large;
+}
+a:active{
+    background-color: red;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: orangered;
+}
+div > ol{
+    background-color: palegoldenrod;
+    border: 2px solid #aaa;
+    padding: 10px 50px;
+}
