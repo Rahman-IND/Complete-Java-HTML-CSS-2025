@@ -2,6 +2,7 @@ h1{
     padding-left: 10px;
     color: white;
     background-color: black;
+    text-decoration: 2px dashed white underline;
 }
 ol li,a{
     text-decoration: none;
