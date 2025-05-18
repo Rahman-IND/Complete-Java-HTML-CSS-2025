@@ -1,58 +1,107 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Registration Form</title>
-    </head>
-    <body>
-        <form>
-            <table align="center" width="500">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/CSS/a3.css">
+</head>
+<body>
+    <div>
+        <form action="">
+            <table>
                 <caption>Registration Form</caption>
                 <tr>
-                    <td>User Name: </td>
-                    <td><input type="text" name="txtname" placeholder="max 10 chars only" autofocus required maxlength="10" size="20" pattern="[A-Z]"></td>
+                    <td><label for="date">Registration Date:</label></td>
+                    <td colspan="2"><input class="infld1" type="date" name="Date" id="date"></td>
                 </tr>
                 <tr>
-                    <td>Password: </td>
-                    <td><input type="password" name="txtpassword" placeholder="password should be 4 to 15 chars" required pattern="[a-z A-Z 0-9]"></td>
+                    <td><label for="uname">Username:</label></td>
+                    <td><input class="infld1" type="text" name="Username" id="uname" placeholder="max 10 chars only" minlength="4" maxlength="10" autofocus required></td>
                 </tr>
                 <tr>
-                    <td>Age: </td>
-                    <td><input type="number" name="txtage" min="15" max="30" value="2"></td>
+                    <td><label for="pwd">Password:</label></td>
+                    <td><input class="infld1" type="password" name="Password" id="pwd" placeholder="password should be 4 to 15 chars" minlength="8" maxlength="10" pattern="[a-zA-Z0-9]{8,10}" required></td>
                 </tr>
                 <tr>
-                    <td>Email: </td>
-                    <td><input type="email" name="txtemail"></td>
+                    <td><label for="mail">Email:</label></td>
+                    <td><input class="infld1" type="email" name="Email" id="mail"></td>
                 </tr>
                 <tr>
-                    <td>Favorite Color: </td>
-                    <td><input type="color" name="txtcolor"></td>
+                    <td><label for="age">Age:</label></td>
+                    <td><input class="infld1" type="number" name="Age" id="age" minlength="2" maxlength="2" size="2" inputmode="numeric" value="18"></td>
                 </tr>
                 <tr>
-                    <td>Favorite Cricketer Name: </td>
+                    <td><label for="">Gender:</label></td>
                     <td>
-                        <input type="text" list="players">
-                        <datalist id="players">
-                            <option value="">Sachin</option>
-                            <option value="">Dhoni</option>
-                            <option value="">Dravid</option>
-                            <option value="">Saurav</option>
+                        <input type="radio" name="gender" id="male" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="Female" value="Male">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Hobbies:</label></td>
+                    <td>
+                        <input type="checkbox" name="hobby" id="uCoding">
+                        <label for="uCoding">Coding</label>
+                        <input type="checkbox" name="hobby" id="uGaming">
+                        <label for="uGaming">Gaming</label>
+                        <input type="checkbox" name="hobby" id="uMusic">
+                        <label for="uMusic">Music</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Favorite Sports:</label></td>
+                    <td>
+                        <select name="Sports" id="uSports" class="infld1">
+                            <option value="Football">Football</option>
+                            <option value="Cricket" selected>Cricket</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Swimming" disabled>Swimming</option>
+                            <option value="Baseball">Baseball</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="players">Favorite Players:</label></td>
+                    <td>
+                        <input class="infld1" list="playerslist" name="players" id="players">
+                        <datalist id="playerslist">
+                            <option value="Sachin"></option>
+                            <option value="Dhoni"></option>
+                            <option value="Dravid"></option>
+                            <option value="Saurav"></option>
                         </datalist>
                     </td>
                 </tr>
                 <tr>
-                    <td>Price Range: </td>
-                    <td><input type="range" name="txtprice"></td>
+                    <td><label for="color">Favorite color:</label></td>
+                    <td><input class="infld1" type="color" name="color" id="color" value="#ff0000"></td>
                 </tr>
                 <tr>
-                    <td>Upload Photo: </td>
-                    <td><input type="file" name="txtfile"></td>
+                    <td><label for="">Modes:</label></td>
+                    <td>
+                        <p>
+                            <span>1.Easy</span>
+                            <span>2.Normal</span>
+                            <span>3.Hard</span>
+                            <span>4.Extreme</span>
+                        </p>
+                        <p><input type="range" name="range" id="range"  min="1" max="4" value="2"></p>
+                    </td>
                 </tr>
                 <tr>
-                    <td colspan="2" align="center">
-                        <input type="submit" value="Registar">
+                    <td><label for="">Upload File:</label></td>
+                    <td><input class="infld2" type="file" name="file" id="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="btn">
+                        <input type="submit" name="submit" id="btnRegister" value="Register">
                     </td>
                 </tr>
             </table>
         </form>
-    </body>
+    </div>
+</body>
 </html>
