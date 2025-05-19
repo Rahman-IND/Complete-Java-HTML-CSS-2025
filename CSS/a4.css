@@ -1,0 +1,42 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    div{
+        width: 50vw;
+        height: 30vh;
+        margin: 5px auto;
+        border: 2px solid black;
+        padding: 0 5px;
+        background-color: palegreen;
+    }
+    fieldset{
+        background-color: palegreen;
+
+    }
+    legend{
+        margin-left: 10px;
+        font-family:sans-serif ;
+        font-weight: bold;
+        font-size: 16px;
+        color: red;
+    }
+    label{
+        padding-left: 5px;
+    }
+    select{
+        margin-bottom: 5px;
+        color: green;
+        font-weight: bold;
+        field-sizing: content;
+        background-color: paleturquoise;
+    }
+    select:open{
+        color: black;
+        background-color: palegoldenrod;
+        width: 150px;
+    }
+    [label="Nepali Food"]{
+        color: red;
+    }

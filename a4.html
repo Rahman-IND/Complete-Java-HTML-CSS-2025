@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head></head>
     <body>
@@ -11,4 +11,49 @@
             </select>
         </div>
     </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select element</title>
+    <link rel="stylesheet" href="/CSS/a4.css">
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>Food Menu</legend>
+            <label for="selectFood">Favorite Food:</label>
+            <select name="selectFood" id="selectFood">
+                <option value="" selected disabled hidden>--Select Food--</option>
+                <optgroup label="German Food">
+                    <option value="Burger">Burger</option>
+                    <option value="Schnitzel">Schnitzel </option>
+                    <option value="Pretzel">Pretzel </option>
+                    <option value="Reibekuchen">Reibekuchen  </option>
+                </optgroup>
+                <optgroup label="Italian Food">
+                    <option value="Pizza">Pizza</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Bolognese">Bolognese</option>
+                    <option value="Lasagne">Lasagne</option>
+                </optgroup>
+                <optgroup label="French Food">
+                    <option value="French Fries">French Fries</option>
+                    <option value="Steak Tartare">Steak Tartare</option>
+                    <option value="Tarte Tatin" disabled>Tarte Tatin</option>
+                    <option value="Macarons">Macarons</option>
+                </optgroup>
+                <optgroup label="Nepali Food" disabled>
+                    <option value="Momo">Momo</option>
+                    <option value="Sel Roti">Sel Roti</option>
+                    <option value="Thukpa">Thukpa</option>
+                    <option value="Chatamari">Chatamari</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </div>
+</body>
 </html>
