@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-        <div>
-            <form>
-                <fieldset>
-                    <legend>Gender</legend>
-                    <input type="radio" name="Gender" value="male" checked>Male
-                    <input type="radio" name="Gender" value="female">Female
-                </fieldset><br>
-                <fieldset>
-                <legend>Select Course</legend>
-                    <input type="checkbox" name="course" value="html">HTML
-                    <input type="checkbox" name="course" value="Java" checked>Java
-                    <input type="checkbox" name="course" value="CSS">CSS
-                </fieldset><br>
-                <button>Submit</button>
-            </form>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio and Checkbox elements</title>
+    <link rel="stylesheet" href="/CSS/a5.css">
+</head>
+<body>
+    <h2>Radio and Checkbox elements</h2>
+    <div>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="Male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Course</legend>
+            <input type="checkbox" name="HTML" id="HTML" value="HTML">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="CSS" id="CSS" value="CSS" checked>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="C++" id="C++" value="C++" disabled>
+            <label for="C++">C++</label>
+            <input type="checkbox" name="JAVASCRIPT" id="JAVASCRIPT" value="JAVASCRIPT">
+            <label for="JAVASCRIPT">JAVASCRIPT</label>
+        </fieldset>
+        <span>
+            <button type="submit">Submit</button>
+        </span>
+    </div>
+</body>
 </html>

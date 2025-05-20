@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+div{
+    border: 2px solid black;
+    width: 55vw;
+    height: 30vh;
+    margin: 25px auto;
+    font-size: large;
+    padding: 5px;
+    background-color: paleturquoise;
+}
+legend{
+    margin-left: 5px;
+    text-align: start;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+fieldset{
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 5px;
+    border: 2px solid hotpink;
+}
+label{
+    padding-right: 15px;
+}
+span{
+    display: block;
+    justify-self: center;
+    margin-top: 45px;
+}
+[type="submit"]{
+    padding: 0 26px;
+    display: inline-block;
+    justify-self: center;
+    background-color: palegreen;
+    border-radius: 40px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid;
+}
