@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-        <div>
-            <form>
-                <fieldset>
-                    <legend>Download progress</legend>
-                    <progress min="1" max="100" value="60"></progress>
-                </fieldset>
-                <fieldset>
-                    <legend>84% profile completed</legend>
-                    <meter min="1" max="100" value="84"></meter>
-                </fieldset>
-            </form>
-        </div>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress and Meter elements</title>
+    <link rel="stylesheet" href="/CSS/a6.css">
+  </head>
+  <body>
+    <h2>Progress Indicator element</h2>
+    <div>
+      <fieldset>
+        <legend>Download progress</legend>
+        <progress max="100" value="60"></progress>
+        <span>60%</span>
+      </fieldset>
+    </div>
+    <h2>Meter element</h2>
+    <div>
+        <fieldset>
+          <legend><span>84%</span> profile completed</legend>
+          <meter min="1" low="20" high="80"  max="100" value="84"></meter>
+        </fieldset>
+    </div>
+  </body>
 </html>

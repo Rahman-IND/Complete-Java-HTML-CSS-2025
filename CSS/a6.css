@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+div {
+    width: 50vw;
+    margin: 35px auto;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+legend {
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+progress {
+    margin-left: 15px;
+    width: 250px;
+}
+
+span {
+    font-family: monospace;
+    font-size: x-large;
+    color: green;
+}
+
+meter {
+    margin-left: 15px;
+    width: 250px;
+}
+
+legend>span {
+    color: green;
+    font-size: 2em;
+}
