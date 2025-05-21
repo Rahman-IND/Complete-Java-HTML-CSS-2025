@@ -1,71 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            /* example of Type Selector */
-            h1,p{
-                background-color: red;
-                color: white;
-            }
-            /* example of Id Selector */
-            #effects{
-                background-color: blue;
-                color: white;
-                padding-left: 10%;
-            }
-            /* example of class selector */
-            .eff1{
-                background-color: black;
-                color: red;
-                text-align: center;
-            }
-            .eff2{
-                background-color: gray;
-                color: greenyellow;
-                text-align: center;
-            }
-            /* example of Decendent Selector */
-            ol>li{
-                color: red;
-            }
-            ul>li{
-                color: blue;
-            }
-            /* example of Attribute Selector */
-            input[type=button]{
-                background-color: yellow;
-                font-weight: bold;
-            }
-            input[type=text]{
-                border: solid limegreen;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- for Type selector -->
-        <h1>HTML</h1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="CSS/c3.css" />
+  </head>
+  <body>
+    <div>
+        <h1>Hyper Text Markup Language</h1>
         <p>This is a website</p>
-        <!-- for Id selector -->
-        <h1 id="effects">CSS</h1>
-        <!-- for Class selector -->
-        <h2 class="eff1">JavaScript</h2>
+        <h2 id="effects">CSS</h2>
+        <h3 class="eff1">JavaScript</h3>
         <p class="eff2">This is JavaScript</p>
-        <!-- for Decendent selector -->
+
         <ol>
-            <li>HTML</li>
-            <li>CSS</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ol>
         <ul>
-            <li>Head tag</li>
-            <li>Body tag</li>
+          <li>Head tag</li>
+          <li>Body tag</li>
         </ul>
-        <!-- for Attribute selector -->
+        
         <fieldset>
-            <legend>Fill  Details</legend>
-            <form>
-                Your Name: <input type="text">
-                <input type="button" value="sumbit">
-            </form>
+            <legend>Fill Details</legend>
+            Your Name: <input type="text" />
+            <input type="button" value="Submit" />
         </fieldset>
-    </body>
+    </div>
+  </body>
 </html>

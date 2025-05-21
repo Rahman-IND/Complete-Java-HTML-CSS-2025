@@ -1,0 +1,87 @@
+/* example of Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+/* example of Type (element) Selector */
+div{
+    margin: 5px auto;
+    width: 65vw;
+}
+
+/* example of 'Selector list' with Type Selector */
+h1,p {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-bottom: 2px;
+}
+ol,ul{
+    padding-left: 15px;
+}
+
+/* example of Id Selector */
+#effects {
+    background-color: blue;
+    color: white;
+    text-align: end;
+    padding-right: 5%;
+    margin-bottom: 2px;
+}
+
+/* example of class selector */
+.eff1 {
+    background-color: yellow;
+    color: white;
+    -webkit-text-stroke:0.6px red;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.eff2 {
+    letter-spacing: 2px;
+    word-spacing: 4px ;
+    font-weight: 600;
+    background-color: gray;
+    color: greenyellow;
+    text-align: center;
+}
+
+/* example of Decendent Selector */
+div fieldset{
+    background-color: aquamarine;
+    border: 2px dashed black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+fieldset legend{
+    margin-left: 20px;
+    text-align: start;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.337);
+}
+
+/* example of Decendent Child Selector */
+ol > li {
+    color: red;
+}
+
+ul > li {
+    color: blue;
+}
+
+/* example of Attribute Selector */
+[type=button] {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+input[type=text] {
+    margin: 15px 0;
+    border: 3px solid limegreen;
+    border-radius: 15px;
+}
