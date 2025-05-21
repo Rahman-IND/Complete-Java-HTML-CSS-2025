@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 5px 5px 0 5px;
+    color: white;
+    background-color: black;
+}
+
+span {
+    text-align: center;
+    justify-self: center;
+    display: block;
+    color: white;
+    background-color: red;
+    /* border: 2px solid lime; */
+    width: 130px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 2px 5px 5px 50px;
+    padding: 0 5px;
+    border-radius: 15px;
+}
+
+marquee {
+    background-color: hotpink;
+    width: 100vw;
+    height: 20px;
+}
