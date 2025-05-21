@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- example of embedded style -->
-        <style>
-            h1{
-                background-color: red;
-                color: white;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>HTML</h1>
-        <h1>CSS</h1>
-        <h1>JavaScript</h1>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal/Embedded CSS</title>
+    <style>
+        /* example of embedded style */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 50vw;
+            padding: 15px;
+            margin: 10px auto;
+            border: 2px solid black;
+        }
+        .cls1{
+            text-align: center;
+            margin: 5px;
+            color: white;
+            background-color: black;
+        }
+        div > h2{
+            text-transform: capitalize;
+            margin: 10px 0 ;
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+            color: white;
+        }
+        div > h2:first-child{
+            padding-bottom: 4px;
+            background-color: orangered;
+        }
+        h2:nth-child(2){
+            background-color: purple;
+        }
+        h2:nth-child(3){
+            background-color: yellow;
+            -webkit-text-stroke: 0.8px crimson;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="cls1">Internal/Embedded CSS</h2>
+    <div>
+        <h2>hyper text markup language</h2>
+        <h2>cascading style sheet</h2>
+        <h2>javaScript</h2>
+    </div>
+</body>
 </html>
