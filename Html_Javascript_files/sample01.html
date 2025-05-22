@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Embedded Script</title>
-        <script type="text/javascript" language="javascript">
-            function printpage(){
-                window.print()
-            }
-        </script>
-    </head>
-    <body>
-        <div>
-            <form>
-                <h2>Click on print button to print page</h2>
-                <input type="button" value="print" onclick="printpage()">
-            </form>
-        </div>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal/Embedded JS</title>
+    <link rel="stylesheet" href="/CSS/JSsample01.css" />
+
+    <script type="text/javascript" lang="javascript">
+      function printPage() {
+        window.print();
+      }
+    </script>
+
+  </head>
+  <body>
+    <h2 id="flh">Internal/Embedded JS</h2>
+    <div>
+      <h2>Click button to print the page.</h2>
+      <input type="button" name="print" id="print" value="Print" onclick="printPage()"/>
+    </div>
+  </body>
 </html>
