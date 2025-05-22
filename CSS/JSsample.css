@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+#flh{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.8px crimson;
+    background-color: yellow;
+}
+div > h2{
+    text-indent: 15px;
+}
+div input{
+    margin-left: 15px;
+    padding: 0 20px;
+    border-radius: 15px;
+    background-color: palegreen;
+}
