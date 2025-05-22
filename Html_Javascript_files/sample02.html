@@ -1,16 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script>
-            "use strict";
-            function f1(){
-                var x=10
-                document.write("x:"+x)
-            }
-            f1();
-        </script>
-    </head>
-    <body>
-        
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Strict Mode</title>
+    <link rel="stylesheet" href="/CSS/JSsample02.css">
+    <script>
+
+        function f1(){
+            a=10;
+            document.write("Sloppy Mode [Non-Strict Mode]"+"<br>")
+            document.write("Value of a is : "+a+"<br><br>");
+        }
+        f1();
+
+        function f2() {
+          "use strict";
+            var b = 20;
+            document.write("In Strict Mode" + "<br>");
+            document.write("Value of b is : " + b + "<br>");
+        }
+        f2();
+    </script>
+  </head>
+  <body>
+<div class="nsm">
+<h2>Sloppy Mode [Non-Strict Mode]</h2>
+<pre>
+<code>
+<samp>&lt;script&gt;</samp>
+function f1(){
+    a=10;
+    document.write("Sloppy Mode [Non-Strict Mode]"+"&lt;br&gt;")
+    document.write("Value of a is : "+a+"&lt;br&gt;");
+}
+f1();
+<samp>&lt;/script&gt;</samp>
+</code>
+    </pre>
+</div>
+    
+<div class="sm">
+<h2>Strict Mode</h2>
+<pre>
+<code id="cd2">
+<samp>&lt;script&gt;</samp>
+<samp>"use strict";</samp>
+function f2() {
+    var b = 20;
+    document.write("In Strict Mode" + "&lt;br&gt;");
+    document.write("Value of b is : " + b + "&lt;br&gt;");
+}
+f2();
+<samp>&lt;/script&gt;</samp>
+</code>
+</pre>
+</div>
+
+  </body>
 </html>
