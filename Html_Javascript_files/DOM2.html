@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <script>
-            function bodyload(){
-                pic.src="/images/fruits.jpeg";
-                Home.btnRegister.value="Register"
-            }
-        </script>
-    </head>
-    <body onload="bodyload()">
-        <div>
-            <img name="pic" width="300" height="300" border="1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="/CSS/JSdom2.css">
+    <script src="/Javascript/DOM2.js"></script>
+</head>
+<body onload="bodyload()">
+    <h2>Document Object Model(DOM)</h2>
+    <div class="main">
+        <div class="picture">
+            <img name="pic">
         </div>
-        <div>
-            <form name="Home">
-                Name: 
-                <input type="text">
-                <input type="button" name="btnRegister">
+        <div class="frm">
+            <form name="frmName">
+                <label for="textname">Name: </label>
+                <input type="text" name="txtname" id="textname" autofocus>
+                <input type="button" name="btnRegister" >
             </form>
         </div>
-    </body>
+    </div>
+</body>
 </html>
