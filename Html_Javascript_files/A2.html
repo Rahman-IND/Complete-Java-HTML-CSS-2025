@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            .bstyle{
-                background-color: black;
-                color: yellow;
-            }
-        </style>
-        <script>
-            function bodyload(){
-                var x=document.getElementsByClassName("bstyle");
-                alert("Total no. of elements using bstyle "+x.length);
-            }
-        </script>
-    </head>
-    <body onload="bodyload()">
-        <h2 class="bstyle">Welcome to Javascript</h2>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - DOM</title>
+    <link rel="stylesheet" href="/CSS/JsA2.css">
+    <script src="/Javascript/A2.js"></script>
+</head>
+<body onload="bodyload()">
+    <h2 class="cls1 cls2">Document Object Model(DOM)</h2>
+    <h4 class=" cls1">Document: <mark>getElementsByClassName()</mark> method</h4>
+    <div class="main">
+        <h2 class="bstyle">Welcome to the webpage</h2>
+        <p class="bstyle">This webpage displays the use of getElementsByClassName method</p>
+    </div>
+    <div class="other">
+        <span class="bstyle">getElementsByClassName is a part of Javascript methods</span>
+    </div>
+</body>
 </html>
