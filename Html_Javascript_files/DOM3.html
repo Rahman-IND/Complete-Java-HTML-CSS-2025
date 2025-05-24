@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Refer by using Id</title>
-        <script>
-            function bodyload(){
-                document.getElementById("hi").src="/images/fruits.jpeg";
-                document.getElementById("txtname").placeholder="name";
-                document.getElementById("txtRegister").value="Register";
-            }
-        </script>
-    </head>
-    <body onload="bodyload()">
-        <div>
-            <img id="hi" width="300" height="300" border="1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - DOM</title>
+    <link rel="stylesheet" href="/CSS/JSdom3.css">
+    <script src="/Javascript/DOM3.js"></script>
+</head>
+<body onload="bodyload()">
+    <h2>Document Object Model(DOM)</h2>
+    <h4>Document: <mark>getElementById()</mark> method</h4>
+    <div class="main">
+        <div class="picture">
+            <img id="pic">
         </div>
-        <div>
-            <form>
-                Name:
-                <input type="text" id="txtname">
-                <input type="button" id="txtRegister">
+        <div class="frmbody">
+            <form id="frm">
+                <label for="txtname">Name: </label>
+                <input type="text" name="txtname" id="txtname">
+                <input type="button" name="txtbtn" id="txtbtn">
             </form>
         </div>
-    </body>
+    </div>
+</body>
 </html>

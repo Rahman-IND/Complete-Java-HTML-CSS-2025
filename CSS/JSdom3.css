@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.5px red;
+    color: white;
+    background-color: yellow;
+    margin: 5px;
+}
+
+h4{
+    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main {
+    border: 2px solid black;
+    justify-self: center;
+}
+
+.picture {
+    margin: 15px;
+}
+
+#pic {
+    width: 350px;
+    height: 250px;
+    border: 2px solid red;
+}
+
+.frmbody {
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+#frm {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+input {
+    font-family: monospace;
+    font-weight: bold;
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#txtbtn {
+    background-color: palegreen;
+}
