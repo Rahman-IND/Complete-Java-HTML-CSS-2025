@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+h2,
+h4 {
+    text-align: center;
+}
+
+h2 {
+    margin: 5px;
+    -webkit-text-stroke: 0.5px red;
+    color: white;
+    background-color: yellow;
+}
+
+h4 {
+    color: blue;
+}
+
+.main {
+    width: 50vw;
+    justify-self: center;
+    border: 2px solid crimson;
+    margin: 15px;
+    background-color: paleturquoise;
+}
+
+fieldset {
+    margin: 10px;
+    border: 2px solid crimson;
+}
+
+legend {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+[type="radio"] {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: rgba(29, 29, 29, 0.807);
+    font-weight: bold;
+}
+
+[type="button"] {
+    border: 2px solid rgba(29, 29, 29, 0.8);
+    border-radius: 20px;
+    background-color: palegreen;
+    padding: 7px 15px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
