@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <script>
-            function DeleteClick(){
-                x=confirm("Record will be deleted");
-                (x==true)?alert("Record deleted sucessfully!!! ") : alert("Delete request canceled");
-            }
-        </script>
-    </head>
-    <body>
-        <div>
-            <form>
-                <input type="button" value="Delete" onclick="DeleteClick()">
-            </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Confirm and Alert method</title>
+    <link rel="stylesheet" href="/CSS/JsA4.css">
+    <script src="/Javascript/A4.js"></script>
+</head>
+<body>
+    <div class="fst">
+        <h3>Window: <mark>confirm()</mark> and <mark>alert()</mark> method</h3>
+        <div class="main">
+            <input type="button" name="delete" id="delete" value="Delete" onclick="del()">
         </div>
-    </body>
+    </div>
+</body>
 </html>
