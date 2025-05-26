@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script>
-            function registerClick(){
-                name=document.getElementById("txtname").value;
-                document.write("Hello ! "+name);
-            }
-        </script>
-    </head>
-    <body>
-        <form>
-            Enter name: 
-            <input type="text" id="txtname">
-            <input type="button" value="Register" onclick="registerClick()"><br>
-            <div align="center" id="msg"></div>
-        </form>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/JsA5.css">
+    <script src="/Javascript/A5.js"></script>
+</head>
+<body>
+    <h2>Document: <mark>write()</mark> method</h2>
+    <span class="depre">Deprecated Element</span>
+    <div class="main">
+        <label for="txtname">Name: </label>
+        <input type="text" name="name" id="txtname" placeholder="Enter Full Name" autofocus>
+        <input type="button" name="submit" id="submit" value="Submit" onclick="showName()">
+    </div>
+    <div class="note">
+        <samp># </samp>
+        <samp>Document: <mark>writeln()</mark> method is use inplace of <mark>write()</mark> method.</samp>
+    </div>
+</body>
 </html>

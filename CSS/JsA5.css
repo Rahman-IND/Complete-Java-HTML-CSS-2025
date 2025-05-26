@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+}
+
+.depre {
+    text-align: center;
+    justify-self: center;
+    display: block;
+    color: white;
+    background-color: red;
+    width: 130px;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 2px 5px 30px 170px;
+    padding: 0 5px;
+    border-radius: 15px;
+}
+
+.main {
+    justify-self: center;
+    text-align: center;
+    width: 50vw;
+    height: 6vh;
+    border: 2px solid red;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+input {
+    text-align: center;
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#submit {
+    background-color: palegreen;
+}
+
+.note {
+    margin-top: 15px;
+    text-align: center;
+}
+
+samp,
+mark {
+    font-family: monospace;
+}
+
+samp:first-child {
+    color: red;
+}
+
+samp:nth-child(2) {
+    color: blue;
+}
+
+samp mark:first-child {
+    font-weight: bold;
+    color: green;
+    font-size: 14px;
+    padding: 0 2px;
+}
+
+samp mark:nth-child(2) {
+    font-weight: bold;
+    padding: 0 2px;
+    color: red;
+}
