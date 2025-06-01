@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+span {
+    color: red;
+    font-family: 'system-ui';
+    font-size: large;
+    font-weight: bold;
+}
+h2{
+    color: blue;
+    text-align: center;
+    margin: 5px;
+}
+mark{
+    padding: 4px;
+    font-family: monospace;
+}
+div{
+    text-align: center;
+}

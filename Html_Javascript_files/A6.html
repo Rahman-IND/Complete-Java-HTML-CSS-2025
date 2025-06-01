@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>innerText & innerHTML</title>
-        <script>
-            function delClick(){
-                x=confirm("Record will be deleted !");
-                msg=document.getElementById("msg");
-                if(x==true){
-                    msg.innerText="Record Deleted";
-                }
-                else{
-                    msg.innerHTML="<font color='red'>Action Cancelled</font>";
-                }
-            }
-        </script>
-    </head>
-    <body onload="delClick()">
-        <div id="msg"></div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - innerHTML and innerText</title>
+    <link rel="stylesheet" href="/CSS/JsA6.css">
+    <script src="/Javascript/A6.js"></script>
+</head>
+<body onload="deleteRec()">
+    <h2>HTMLElement: <mark>innerText</mark> and <mark>innerHTML</mark> property</h2>
+    <div id="msg"></div>
+</body>
 </html>
