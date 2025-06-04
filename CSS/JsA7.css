@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    box-sizing: border-box;
+}
+
+.bh1 {
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    background-color: yellow;
+    -webkit-text-stroke: red 0.5px;
+    color: white;
+}
+p,mark{
+    text-align: center;
+    font-family: monospace;
+}
+mark {
+    font-size: medium;
+    font-weight: bold;
+    padding: 0 4px;
+    background-color: yellow;
+}
