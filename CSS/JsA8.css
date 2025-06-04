@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+:root {
+    --defBorder: 2px solid black;
+    --defBradius: 20px;
+    --color: palegreen;
+    --defPadding:  4px 0;
+}
+
+div {
+    margin: 5px;
+    text-align: center;
+    border: var(--defBorder);
+}
+
+h2,p {
+    margin-bottom: 5px;
+}
+
+h2 {
+    background-color: yellow;
+    color: white;
+    font-family: 'Segoe UI';
+    -webkit-text-stroke: red 0.5px;
+}
+
+p {
+    color: blue;
+    font-weight: bold;
+}
+
+mark {
+    padding: 0 2px;
+    font-weight: normal;
+}
+
+#dv1 {
+    background-color: paleturquoise;
+    display: block;
+    padding: var(--defPadding);
+}
+
+#msg {
+    background-color: var(--color);
+    padding:var(--defPadding);
+}
+
+[type="button"] {
+    padding: 2px 20px;
+    border: var(--defBorder);
+    border-radius: var(--defBradius);
+    background-color: var(--color);
+}
+
+[type="button"]:hover{
+    font-weight: bold;
+}

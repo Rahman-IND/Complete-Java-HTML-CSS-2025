@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <script>
-            function Create(){
-                var name=prompt("Folder Name: ", "New_Folder");
-                var msg=document.getElementById("msg");
-                (name==null)? document.write("Action Cancelled"): msg.innerHTML+="Folder Created: "+name+"<br>";
-            }
-        </script>
-    </head>
-    <body>
-        <div>
-            <form>
-                <input type="button" value="Create Folder" onclick="Create()">
-                <div id="msg"></div>
-            </form>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js - Prompt method</title>
+    <link rel="stylesheet" href="/CSS/JsA8.css">
+    <script src="/Javascript/A8.js"></script>
+</head>
+<body onload="bodyload()">
+    <div class="hder">
+        <h2>Javascript</h2>
+        <p>Window: <mark>prompt()</mark> method</p>
+    </div>
+    <div id="dv1">
+        <input type="button" name="createFolder" id="createFolder" onclick="Create()">
+    </div>
+    <div id="msg"></div>
+</body>
 </html>
